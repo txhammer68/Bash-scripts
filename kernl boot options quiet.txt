@@ -1,0 +1,1 @@
+systemd.show_status=0 vt.global_cursor_default=0 loglevel=0 rd.udev.log-priority=3 loglevel=3 nowatchdog modprobe.blacklist=iTCO_wdt
