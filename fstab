@@ -1,0 +1,19 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=DB9B-EAE0                            /boot/efi      vfat    defaults,noatime 0 2
+UUID=b5ff887b-2b85-432c-9b02-3ba9b5b0bac5 /              ext4    defaults,noatime, 0 1
+# tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
+tmpfs   /tmp       tmpfs   defaults,noatime,nodiratime,mode=1777   0	0
+#tmpfs   /var/spool tmpfs  defaults,noatime,nodiratime,mode=1777   0	0
+tmpfs   /var/tmp   tmpfs   defaults,noatime,nodiratime,mode=1777   0  0
+UUID=27010423-71fa-4039-962a-e11c423d482c /run/media/hammer/Data/ ext4 defaults,noatime,nodiratime 0	1
+UUID=2693175c-953b-4498-819a-012bfb7bb7ee /run/media/hammer/Backup/ ext4 defaults,noatime,nodiratime 0	1
+/run/media/hammer/Data/Mame/mame-roms.iso /run/media/mame-roms/  iso9660 loop,ro,auto 0 0
+/run/media/hammer/Data/Music /run/media/music auto defaults,nofail,nobootwait,bind 0 0
+/run/media/hammer/Data/Videos/ /run/media/videos auto defaults,nofail,nobootwait,bind 0 0
+# /run/media/hammer/Data/cmt/ /run/media/hammer/home auto defaults,nofail,nobootwait,bind 0 2
