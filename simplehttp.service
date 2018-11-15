@@ -4,6 +4,7 @@ Documentation=man:SimpleHTTPServer(1)
 
 [Service]
 Type=simple
+server_address = ('192.168.1.99', 8000)
 WorkingDirectory=/opt/google/chrome/my-startpage/
 ExecStart=/usr/bin/python3 -m http.server 8000
 ExecStop=/bin/kill `/bin/ps aux | /bin/grep SimpleHTTPServer | /bin/grep -v grep | /usr/bin/awk '{ print $2 }'`

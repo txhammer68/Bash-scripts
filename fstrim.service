@@ -1,6 +1,9 @@
+# /etc/systemd/system/fstrim.service
+# Called by /usr/lib/systemd/system/fstrim.timer from util-linux
+# Add `-v` flag so that results can be reviewed in jouranctl
 [Unit]
-Description=Discard unused blocks
+Description=Discard unused blocks (for SSD Drives)
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/fstrim -av
+ExecStart=/usr/sbin/fstrim / -av >/var/log/fstrim.log

@@ -1,0 +1,9 @@
+[Unit]
+Description=runs rsync backup of /home to external HDD
+ 
+[Service]
+Type=oneshot
+ExecStart=/run/media/hammer/Data/backup.sh
+
+[Install]
+WantedBy=multi-user.target
