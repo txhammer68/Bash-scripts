@@ -1,0 +1,13 @@
+# runs bleachbit cleaner service script 
+# sudo systemctl enable cleaner.service
+
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Run bleachbit cleaner script
+
+[Service]
+LogLevelMax=2
+Type=simple
+ExecStart=sh /home/matt/bin/cleaner.sh

@@ -1,0 +1,11 @@
+[Unit]
+Description=runs cleaner.service monthly
+ 
+[Timer]
+OnCalendar=monthly
+RandomizedDelaySec=7200
+Persistent=true
+Unit=cleaner.service
+ 
+[Install]
+WantedBy=timers.target
