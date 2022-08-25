@@ -1,0 +1,9 @@
+SDATEST=`smartctl -H /dev/sda`
+SDBTEST=`smartctl -H /dev/sdb`
+SDCTEST=`smartctl -H /dev/sdc`
+SDATEST=`echo $SDATEST | awk '{print $NF}'`
+SDBTEST=`echo $SDBTEST | awk '{print $NF}'`
+SDCTEST=`echo $SDCTEST | awk '{print $NF}'`
+echo SDA=$SDATEST
+echo SDB=$SDBTEST
+echo SDC=$SDCTEST
