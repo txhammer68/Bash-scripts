@@ -7,7 +7,7 @@ set -e
 # your files. If you're on WSL, all of your drives can be found in /mnt but if
 # follow my above blog post on setting up WSL, you can have them get mounted
 # directly to /e or /f rather than /mnt/e or /mnt/f.
-target_path="/run/media/hammer/Backup"
+target_path="/home/Backup"
 
 # Create the target path if it doesn't exist. This command is smart enough to
 # not do anything if it already exists, which is important for later because
@@ -19,12 +19,11 @@ target_path="/run/media/hammer/Backup"
 #
 # The /e paths happens to be an internal HD I use to store all of my data.
 include_paths=(
-  "/run/media/hammer/Data/Docs"
-  "/run/media/hammer/Data/Music"
-  "/run/media/hammer/Data/Pictures"
-  "/run/media/hammer/Data/projects"
-  "/run/media/hammer/Data/*.*"
-  "/boot"
+  "/home/Data/Docs"
+  "/home/Data/Music"
+  "/home/Data/Pictures"
+  "/home/Data/projects"
+  "/home/Data/*.*"
   
 )
 
@@ -40,6 +39,7 @@ exclude_paths=(
   "_site"
   "node_modules"
   "tmp"
+  "/boot/efi"
 )
 
 # rsync allows you to exclude certain paths. We're just looping over all of the
@@ -61,4 +61,4 @@ done
 #  -v is verbose mode to get a bit of extra output (useful for debugging).
 #  -R is relative mode. It ensures the included paths get created on the target.
 #  --dry-run ensures nothing gets written to the target (for testing purposes).
-rsync -avrq --log-file=/var/log/rsync-backup.log ${exclude_flags} ${include_args} ${target_path}
+rsync -avrq  ${exclude_flags} ${include_args} ${target_path}

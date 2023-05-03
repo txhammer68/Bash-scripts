@@ -1,0 +1,16 @@
+#! /bin/bash
+# M.T. 2022-10-02
+# This script is called by systemd service /etc/systemd/system/mygovernor.service
+
+echo ondemand | tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+echo ondemand | tee /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+echo ondemand | tee /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+echo ondemand | tee /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+echo 1500000 | tee /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq
+echo 1500000 | tee /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_min_freq
+echo 1500000 | tee /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_min_freq
+echo 1500000 | tee /sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_min_freq
+echo 4200000 | tee /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq
+echo 4200000 | tee /sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_max_freq
+echo 4200000 | tee /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_max_freq
+echo 4200000 | tee /sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_max_freq
