@@ -19,11 +19,11 @@ target_path="/home/Backup"
 #
 # The /e paths happens to be an internal HD I use to store all of my data.
 include_paths=(
-  "/home/Data/Docs"
-  "/home/Data/Music"
-  "/home/Data/Pictures"
-  "/home/Data/projects"
-  "/home/Data/*.*"
+  "/home/data/Docs"
+  "/home/data/Music"
+  "/home/data/Pictures"
+  "/home/data/projects"
+  "/home/data/*.*"
   
 )
 

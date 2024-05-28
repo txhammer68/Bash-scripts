@@ -8,7 +8,7 @@ set -e
 # follow my above blog post on setting up WSL, you can have them get mounted
 # directly to /e or /f rather than /mnt/e or /mnt/f.
 LAST=`date +%m-%d-%Y`
-target_path="/home/Backup/${LAST}"
+target_path="/home/backup/${LAST}"
 
 # Create the target path if it doesn't exist. This command is smart enough to
 # not do anything if it already exists, which is important for later because
@@ -20,10 +20,11 @@ target_path="/home/Backup/${LAST}"
 #
 # The /e paths happens to be an internal HD I use to store all of my data.
 include_paths=(
+  "/home/matt/*.*"
   "/home/matt/.local/bin"
-  "/home/Data/Docs"
-  "/home/Data/projects"
-  "/home/Data/*.*"
+  "/home/data/Docs"
+  "/home/data/projects"
+  "/home/data/*.*"
 )
 
 # A list of folder names and files to exclude. There's no point backing up
