@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+curl -s --retry-all-errors --retry 3 --retry-delay 5 -X GET "https://api.openweathermap.org/data/2.5/onecall?lat=29.6614&lon=-95.1137&units=imperial&exclude=hourly,minutely&appid=3d2fc85d1b24fa168fa4bcb90c30ef13" -H  "accept: application/json" -o /tmp/weather.json >/dev/null
+exit

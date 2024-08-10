@@ -1,0 +1,11 @@
+#!/bin/bash
+
+function pick() {
+        qdbus --literal org.kde.KWin.ScreenShot2 /ColorPicker org.kde.kwin.ColorPicker.pick | sed 's/^[^0-9]*//;s/[^0-9]*$//;'
+}
+
+function to_argb() {
+        printf "%x" "$1"
+}
+
+kdialog --inputbox "Your color" "#$(to_argb $(pick))"
