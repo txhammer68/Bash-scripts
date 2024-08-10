@@ -228,18 +228,6 @@
     "link": "A.I. Artificial Intelligence.mp4"
   },
   {
-    "title": "AVP: Alien vs. Predator",
-    "overview": "When scientists discover something in the Arctic that appears to be a buried Pyramid, they send a research team out to investigate. Little do they know that they are about to step into a hunting ground where Aliens are grown as sport for the Predator race.",
-    "rating": 5.9,
-    "poster_path": "/2DKoPom57PVtJWcJlq7bS7JpahU.jpg",
-    "backdrop_path": "/tOvoWzkUzCMJ8Ra5nkmNg7ehCET.jpg",
-    "runtime": "1:40",
-    "release_date": "2004-08-12",
-    "genre": "Adventure,Science Fiction,Action,Horror,",
-    "trailer": "AVP: Alien vs. Predator - Trailer.mp4",
-    "link": "AVP: Alien vs. Predator.mp4"
-  },
-  {
     "title": "Absolute Power",
     "overview": "A master thief coincidentally is robbing a house where a murder\u2014in which the President of The United States is involved\u2014occurs in front of his eyes. He is forced to run, while holding evidence that could convict the President.",
     "rating": 6.6,
@@ -336,6 +324,15 @@
     "link": "Ali.mp4"
   },
   {
+    "title": "Alien Collection",
+    "overview": "A science fiction horror film franchise, focusing on Lieutenant Ellen Ripley (Sigourney Weaver) and her battle with an extraterrestrial life-form, commonly referred to as the Alien. Produced by 20th Century Fox, the series started with the 1979 film Alien, then Aliens in 1986, Alien³ in 1992, and Alien: Resurrection in 1997.",
+    "poster_path": "/yriOcdpJ6gQIAuWGZvtgSzkhWoz.jpg",
+    "backdrop_path": "/kB0Y3uGe9ohJa59Lk8UO9cUOxGM.jpg",
+    "genre": "Horror,Science Fiction,",
+    "release_date": "1979-05-25",
+    "collection":1,
+    "parts":[
+  {
     "title": "Alien",
     "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
     "rating": 8.2,
@@ -372,6 +369,18 @@
     "link": "Alien\u00b3.mp4"
   },
   {
+    "title": "AVP: Alien vs. Predator",
+    "overview": "When scientists discover something in the Arctic that appears to be a buried Pyramid, they send a research team out to investigate. Little do they know that they are about to step into a hunting ground where Aliens are grown as sport for the Predator race.",
+    "rating": 5.9,
+    "poster_path": "/2DKoPom57PVtJWcJlq7bS7JpahU.jpg",
+    "backdrop_path": "/tOvoWzkUzCMJ8Ra5nkmNg7ehCET.jpg",
+    "runtime": "1:40",
+    "release_date": "2004-08-12",
+    "genre": "Adventure,Science Fiction,Action,Horror,",
+    "trailer": "AVP: Alien vs. Predator - Trailer.mp4",
+    "link": "AVP: Alien vs. Predator.mp4"
+  },
+  {
     "title": "Alien: Prometheus",
     "overview": "A team of explorers discover a clue to the origins of mankind on Earth, leading them on a journey to the darkest corners of the universe. There, they must fight a terrifying battle to save the future of the human race.",
     "rating": 6.5,
@@ -394,7 +403,7 @@
     "genre": "Science Fiction,Horror,Mystery,",
     "trailer": "Alien: Covenant - Trailer.mp4",
     "link": "Alien: Covenant.mp4"
-  },
+ }]},
   {
     "title": "All the King's Men",
     "overview": "The story of an idealist's rise to power in the world of Louisiana politics and the corruption that leads to his ultimate downfall. Based on the 1946 Pulitzer Prize-winning novel written by Robert Penn Warren, loosely based on the story of real-life politician Huey Long.",
@@ -888,6 +897,15 @@
     "link": "August: Osage County.mp4"
   },
   {
+    "title": "Austin Powers Collection",
+    "overview": "Austin Powers is a series of comedy films directed by Jay Roach and distributed by New Line Cinema, and written, produced by, and starring Mike Myers as the titular character.  The films follow Austin Powers, a British spy, and his quest to bring the villain Dr. Evil to justice. The series mainly spoof the James Bond, Derek Flint, Jason King and Matt Helm franchises, incorporate myriad other elements of popular culture.",
+    "poster_path": "/1PkGnyFwRyapmbuILIOXXxiSh7Y.jpg",
+    "backdrop_path": "/3QJMI8nqQcwU5JBPy26m8TUXtTN.jpg",
+    "genre": "Science Fiction,Comedy,Crime,",
+    "release_date": "1997-05-02",
+    "collection":1,
+    "parts":[
+  {
     "title": "Austin Powers: International Man of Mystery",
     "overview": "As a swinging fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy. But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.",
     "rating": 6.6,
@@ -922,7 +940,7 @@
     "genre": "Comedy,Crime,Science Fiction,",
     "trailer": "Austin Powers in Goldmember - Trailer.mp4",
     "link": "Austin Powers in Goldmember.mp4"
-  },
+  }]},
   {
     "title": "Automata",
     "overview": "Jacq Vaucan, an insurance agent of ROC robotics corporation, routinely investigates the case of manipulating a robot. What he discovers will have profound consequences for the future of humanity.",
@@ -996,6 +1014,15 @@
     "link": "Babylon.mp4"
   },
   {
+    "title": "Back to the Future Collection",
+    "overview": "An American science fiction–comedy film series that follows the adventures of a high school student, Marty McFly and an eccentric scientist, Dr Emmett L. Brown as they use a DeLorean time machine to time travel to different periods in the history of Hill Valley, California.",
+    "poster_path": "/5Xsu2o5IsZRuuxCEVZ9nVve21FP.jpg",
+    "backdrop_path": "/AqQotqj7XOI6GjB28nhMMa8YzOT.jpg",
+    "genre": "Adventure,Comedy,Science Fiction,",
+    "release_date": "1985-07-03",
+    "collection":1,
+    "parts":[
+  {
     "title": "Back to the Future",
     "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
     "rating": 8.3,
@@ -1030,7 +1057,7 @@
     "genre": "Adventure,Comedy,Science Fiction,",
     "trailer": "Back to the Future Part III - Trailer.mp4",
     "link": "Back to the Future Part III.mp4"
-  },
+  }]},
   {
     "title": "Backdraft",
     "overview": "Firemen brothers Brian and Stephen McCaffrey battle each other over past slights while trying to stop an arsonist with a diabolical agenda from torching Chicago.",
@@ -1162,42 +1189,6 @@
     "genre": "Family,Comedy,Fantasy,Science Fiction,",
     "trailer": "*batteries not included - Trailer.mp4",
     "link": "*batteries not included.mp4"
-  },
-  {
-    "title": "Batman Begins",
-    "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
-    "rating": 7.7,
-    "poster_path": "/lXRSRP5QMfrr9cSiupvcGDJW1Sa.jpg",
-    "backdrop_path": "/lh5lbisD4oDbEKgUxoRaZU8HVrk.jpg",
-    "runtime": "2:20",
-    "release_date": "2005-06-10",
-    "genre": "Action,Crime,Drama,",
-    "trailer": "Batman Begins - Trailer.mp4",
-    "link": "Batman Begins.mp4"
-  },
-  {
-    "title": "The Dark Knight",
-    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-    "rating": 8.5,
-    "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
-    "runtime": "2:32",
-    "release_date": "2008-07-16",
-    "genre": "Drama,Action,Crime,Thriller,",
-    "trailer": "The Dark Knight - Trailer.mp4",
-    "link": "The Dark Knight.mp4"
-  },
-  {
-    "title": "The Dark Knight Rises",
-    "overview": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
-    "rating": 7.8,
-    "poster_path": "/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
-    "backdrop_path": "/c3OHQncTAnKFhdOTX7D3LTW6son.jpg",
-    "runtime": "2:45",
-    "release_date": "2012-07-17",
-    "genre": "Action,Crime,Drama,Thriller,",
-    "trailer": "The Dark Knight Rises - Trailer.mp4",
-    "link": "The Dark Knight Rises.mp4"
   },
   {
     "title": "The Beach",
@@ -1403,6 +1394,18 @@
     "trailer": "The Big Short - Trailer.mp4",
     "link": "The Big Short.mp4"
   },
+  {
+  "title": "The Bikeriders",
+  "overview": "After a chance encounter, headstrong Kathy is drawn to Benny, member of Midwestern motorcycle club the Vandals. As the club transforms into a dangerous underworld of violence, Benny must choose between Kathy and his loyalty to the club.",
+  "rating": 7.0,
+  "poster_path": "/qTb6sSRt8Pw96JTan8ezU2xO0FU.jpg",
+  "backdrop_path": "/bVigVS3LVotEK4GsBlGOagkjPEc.jpg",
+  "runtime": "1:56",
+  "release_date": "2024-06-19",
+  "genre": "Crime,Drama,",
+  "trailer": "The Bikeriders - Trailer.mp4",
+  "link": "The Bikeriders.mp4"
+},
   {
     "title": "Bird Box",
     "overview": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
@@ -1680,6 +1683,14 @@
     "link": "The Book of Eli.mp4"
   },
   {
+    "title": "James Bond Collection",
+    "overview": "The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename 007. With all of the action, adventure, gadgetry & film scores that Bond is famous for.",
+    "poster_path": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg",
+    "backdrop_path": "/iMyzpZiBLoojAbWt1WfxfnHuf2P.jpg",
+    "genre": "Action,Thriller,Adventure,",
+    "release_date": "1963-10-10",
+    "collection":1,
+    "parts":[{
     "title": "007: From Russia with Love",
     "overview": "Agent 007 is back in the second installment of the James Bond series, this time battling a secret crime organization known as SPECTRE. Russians Rosa Klebb and Kronsteen are out to snatch a decoding device known as the Lektor, using the ravishing Tatiana to lure Bond into helping them. Bond willingly travels to meet Tatiana in Istanbul, where he must rely on his wits to escape with his life in a series of deadly encounters with the enemy.",
     "rating": 7.1,
@@ -1810,7 +1821,8 @@
     "genre": "Action,Adventure,Thriller,",
     "trailer": "007: No Time to Die - Trailer.mp4",
     "link": "007: No Time to Die.mp4"
-  },
+  }
+  ]},
   {
     "title": "The Boondock Saints",
     "overview": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
@@ -1860,6 +1872,15 @@
     "link": "The Bounty.mp4"
   },
   {
+    "title": "The Bourne Collection",
+    "overview": "The Bourne films are a series of action thriller movies based on the character Jason Bourne, a CIA assassin suffering from extreme memory loss who must figure out who he is. The character is based on novels by Robert Ludlum. The fourth film in the series introduces Aaron Cross, a Department of Defense operative who runs for his life because of Bourne's actions.",
+    "poster_path": "/q0ma8ozYaaol1IvdGjBvj3KllyL.jpg",
+    "backdrop_path": "/vA5xMglyZv7yzDTj1qUTU4OvelV.jpg",
+    "genre": "Action,Drama,Mystery,Thriller,",
+    "release_date": "2002-06-14",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Bourne Identity",
     "overview": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy\u2014but who does he work for?",
     "rating": 7.5,
@@ -1867,7 +1888,7 @@
     "backdrop_path": "/g1MFwTP8jQK5RM7Lz0ROZYkEZqI.jpg",
     "runtime": "1:59",
     "release_date": "2002-06-14",
-    "genre": "Action,Drama,Mystery,Thriller,",
+    "genre": "Action,Drama,Thriller,",
     "trailer": "The Bourne Identity - Trailer.mp4",
     "link": "The Bourne Identity.mp4"
   },
@@ -1918,7 +1939,7 @@
     "genre": "Action,Thriller,Mystery,Drama,",
     "trailer": "Jason Bourne - Trailer.mp4",
     "link": "Jason Bourne.mp4"
-  },
+  }]},
   {
     "title": "The Box",
     "overview": "Norma and Arthur Lewis, a suburban couple with a young child, receive a simple wooden box as a gift, which bears fatal and irrevocable consequences. A mysterious stranger delivers the message that the box promises to bestow upon its owner $1 million with the press of a button. However pressing this button will simultaneously cause the death of another human being somewhere in the world; someone they don't know. With just 24 hours to have the box in their possession, Norma and Arthur find themselves in the cross-hairs of a startling moral dilemma and must face the true nature of their humanity.",
@@ -2700,6 +2721,15 @@
     "link": "Confess, Fletch.mp4"
   },
   {
+    "title": "The Conjuring Collection",
+    "overview": "A supernatural horror film series that started The Conjuring Universe and follows Ed and Lorraine Warren, paranormal investigators and authors associated with prominent cases of haunting. Their reports inspired the Amityville Horror.",
+    "poster_path": "/z5VKhNSQKQyxm0co68HAkCqHnmX.jpg",
+    "backdrop_path": "/mXndmCbpvlqnD6po0EMfxEZcUSn.jpg",
+    "genre": "Horror,Thriller,",
+    "release_date": "2013-07-18",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Conjuring",
     "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
     "rating": 7.5,
@@ -2734,7 +2764,7 @@
     "genre": "Horror,Mystery,Thriller,",
     "trailer": "The Conjuring: The Devil Made Me Do It - Trailer.mp4",
     "link": "The Conjuring: The Devil Made Me Do It.mp4"
-  },
+  }]},
   {
     "title": "Conspiracy Theory",
     "overview": "A man obsessed with conspiracy theories becomes a target after one of his theories turns out to be true. Unfortunately, in order to save himself, he has to figure out which theory it is.",
@@ -3059,6 +3089,51 @@
     "trailer": "Dante's Peak - Trailer.mp4",
     "link": "Dante's Peak.mp4"
   },
+   {
+    "title": "The Dark Knight Collection",
+    "overview": "A superhero film series based on the DC Comics character Batman. Centered on Bruce Wayne, a billionaire dedicating his life to fight crime in his home, Gotham City, as a masked vigilante known as Batman.",
+    "poster_path": "/ogyw5LTmL53dVxsppcy8Dlm30Fu.jpg",
+    "backdrop_path": "/xfKot7lqaiW4XpL5TtDlVBA9ei9.jpg",
+    "genre": "Action,Crime,Drama,",
+    "release_date": "2005-06-10",
+    "collection":1,
+    "parts":[
+  {
+    "title": "Batman Begins",
+    "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+    "rating": 7.7,
+    "poster_path": "/lXRSRP5QMfrr9cSiupvcGDJW1Sa.jpg",
+    "backdrop_path": "/lh5lbisD4oDbEKgUxoRaZU8HVrk.jpg",
+    "runtime": "2:20",
+    "release_date": "2005-06-10",
+    "genre": "Action,Crime,Drama,",
+    "trailer": "Batman Begins - Trailer.mp4",
+    "link": "Batman Begins.mp4"
+  },
+  {
+    "title": "The Dark Knight",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "rating": 8.5,
+    "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
+    "runtime": "2:32",
+    "release_date": "2008-07-16",
+    "genre": "Drama,Action,Crime,Thriller,",
+    "trailer": "The Dark Knight - Trailer.mp4",
+    "link": "The Dark Knight.mp4"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "overview": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+    "rating": 7.8,
+    "poster_path": "/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
+    "backdrop_path": "/c3OHQncTAnKFhdOTX7D3LTW6son.jpg",
+    "runtime": "2:45",
+    "release_date": "2012-07-17",
+    "genre": "Action,Crime,Drama,Thriller,",
+    "trailer": "The Dark Knight Rises - Trailer.mp4",
+    "link": "The Dark Knight Rises.mp4"
+  }]},
   {
     "title": "Dark Skies",
     "overview": "From the producers of Paranormal Activity, Insidious, and Sinister comes Dark Skies: a supernatural thriller that follows a young family living in the suburbs. As husband and wife Daniel and Lacey Barret witness an escalating series of disturbing events involving their family, their safe and peaceful home quickly unravels. When it becomes clear that the Barret family is being targeted by an unimaginably terrifying and deadly force, Daniel and Lacey take matters in their own hands to solve the mystery of what is after their family.",
@@ -3336,6 +3411,15 @@
     "link": "The Devil's Own.mp4"
   },
   {
+    "title": "Die Hard Collection",
+    "overview": "An action film series centered around the character of John McClane, a New York City police detective who finds himself fighting a group of terrorists in each film.",
+    "poster_path": "/fn3aXwADNC0nmJ51GYnkrOseVgB.jpg",
+    "backdrop_path": "/5kHVblr87FUScuab1PVSsK692IL.jpg",
+    "genre": "Action,Thriller,",
+    "release_date": "1988-07-15",
+    "collection":1,
+    "parts":[
+  {
     "title": "Die Hard",
     "overview": "NYPD cop John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when, minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
     "rating": 7.8,
@@ -3394,7 +3478,7 @@
     "genre": "Action,Thriller,",
     "trailer": "A Good Day to Die Hard - Trailer.mp4",
     "link": "A Good Day to Die Hard.mp4"
-  },
+  }]},
   {
     "title": "Diner",
     "overview": "Set in 1959, Diner shows how five young men resist their adulthood and seek refuge in their beloved Diner. The mundane, childish, and titillating details of their lives are shared. But the golden moments pass, and the men shoulder their responsibilities, leaving the Diner behind.",
@@ -3895,7 +3979,7 @@
     "backdrop_path": "/npLwIeUobjVCM4fLfdeLqQhAoey.jpg",
     "runtime": "1:42",
     "release_date": "1973-08-17",
-    "genre": "Action,",
+    "genre": "Action,Martial Arts",
     "trailer": "Enter the Dragon - Trailer.mp4",
     "link": "Enter the Dragon.mp4"
   },
@@ -4248,6 +4332,15 @@
     "link": "Fargo.mp4"
   },
   {
+    "title": "The Fast and the Furious Collection",
+    "overview": "An action film series centered on illegal street racing and heists.",
+    "poster_path": "/rKKSOVv6iU3nULrKQmd9uEx9gez.jpg",
+    "backdrop_path": "/56h4DCt0ogIRI7B71xD5iA5hES1.jpg",
+    "genre": "Action,Crime,Thriller,",
+    "release_date": "2001-06-22",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Fast and the Furious",
     "overview": "Dominic Toretto is a Los Angeles street racer suspected of masterminding a series of big-rig hijackings. When undercover cop Brian O'Conner infiltrates Toretto's iconoclastic crew, he falls for Toretto's sister and must choose a side: the gang or the LAPD.",
     "rating": 7.0,
@@ -4306,7 +4399,7 @@
     "genre": "Action,Thriller,Crime,",
     "trailer": "Fast Five - Trailer.mp4",
     "link": "Fast Five.mp4"
-  },
+  }]},
   {
     "title": "Fast Times at Ridgemont High",
     "overview": "Based on the real-life adventures chronicled by Cameron Crowe, Fast Times follows a group of high school students growing up in Southern California. Stacy Hamilton and Mark Ratner are looking for a love interest, and are helped along by their older classmates, Linda Barrett and Mike Damone, respectively. At the center of the film is Jeff Spicoli, a perpetually stoned surfer who faces-off with the resolute Mr. Hand\u2014a man convinced that everyone is on dope.",
@@ -5221,6 +5314,15 @@
     "link": "Glengarry Glen Ross.mp4"
   },
   {
+    "title": "The Godfather Collection",
+    "overview": "Francis Ford Coppola’s trilogy films about the everyday life of a New York mafia family. With its star-studded cast these films would go down in history as some of the greatest Hollywood has ever produced.",
+    "poster_path": "/zqV8MGXfpLZiFVObLxpAI7wWonJ.jpg",
+    "backdrop_path": "/mDMCET9Ens5ANvZAWRpluBsMAtS.jpg",
+    "genre": "Drama,Crime,",
+    "release_date": "1972-03-14",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Godfather",
     "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
     "rating": 8.7,
@@ -5255,7 +5357,7 @@
     "genre": "Crime,Drama,Thriller,",
     "trailer": "The Godfather Part III - Trailer.mp4",
     "link": "The Godfather Part III.mp4"
-  },
+  }]},
   {
     "title": "Going in Style",
     "overview": "Desperate to pay the bills and come through for their loved ones, three lifelong pals risk it all by embarking on a daring bid to knock off the very bank that absconded with their money.",
@@ -5653,6 +5755,51 @@
     "link": "The Hangover.mp4"
   },
   {
+    "title": "The Hannibal Lecter Anthology",
+    "overview": "Hannibal Lecter 'Lecktor' is an American psychological thriller film series, adapted from the Thomas Harris novel of the same name. Hannibal is a sequel to the 1991 Academy Award-winning film The Silence of the Lambs that returns Anthony Hopkins to his iconic role as serial killer Hannibal Lecter 'Lecktor'. Julianne Moore co-stars, taking over for Jodie Foster in the role of FBI Agent Clarice Starling. Red Dragon prequel stars Edward Norton as FBI agent Will Graham. Original Manhunter and Hannibal Rising sans Hopkins.",
+    "poster_path": "/aRbyr3KsdmIczGh6VrlvlgQdwMQ.jpg",
+    "backdrop_path": "/pvOzV91jdNf4PPDtGU1SCnwwii1.jpg",
+    "genre": "Horror,Science Fiction,",
+    "release_date": "1979-05-25",
+    "collection":1,
+    "parts":[
+     {
+    "title": "The Silence of the Lambs",
+    "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+    "rating": 8.3,
+    "poster_path": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "backdrop_path": "/aYcnDyLMnpKce1FOYUpZrXtgUye.jpg",
+    "runtime": "1:59",
+    "release_date": "1991-02-14",
+    "genre": "Crime,Drama,Thriller,",
+    "trailer": "The Silence of the Lambs - Trailer.mp4",
+    "link": "The Silence of the Lambs.mp4"
+  },
+  {
+    "title": "Hannibal",
+    "overview": "After having successfully eluded the authorities for years, Hannibal peacefully lives in Italy in disguise as an art scholar. Trouble strikes again when he's discovered leaving a deserving few dead in the process. He returns to America to make contact with now disgraced Agent Clarice Starling, who is suffering the wrath of a malicious FBI rival as well as the media.",
+    "rating": 6.8,
+    "poster_path": "/v5wAZwRqpGWmyAaaJ8BBHYuNXnj.jpg",
+    "backdrop_path": "/fM736e6Za4tofRqPFguhdE3MjpO.jpg",
+    "runtime": "2:11",
+    "release_date": "2001-02-08",
+    "genre": "Crime,Drama,Thriller,",
+    "trailer": "Hannibal - Trailer.mp4",
+    "link": "Hannibal.mp4"
+  },
+  {
+    "title": "Red Dragon",
+    "overview": "Former FBI Agent Will Graham, who was once almost killed by the savage Hannibal 'The Cannibal' Lecter, now has no choice but to face him again, as it seems Lecter is the only one who can help Graham track down a new serial killer.",
+    "rating": 7.0,
+    "poster_path": "/ou9ZKA2cms02b7CdCdVqGkKu0O0.jpg",
+    "backdrop_path": "/7c65xpnYlea6VITznLLRS9cTuwS.jpg",
+    "runtime": "2:04",
+    "release_date": "2002-10-02",
+    "genre": "Crime,Thriller,Horror,",
+    "trailer": "Red Dragon - Trailer.mp4",
+    "link": "Red Dragon.mp4"
+  }]},
+  {
     "title": "The Happening",
     "overview": "When a deadly airborne virus threatens to wipe out the northeastern United States, teacher Elliott Moore and his wife Alma flee from contaminated cities into the countryside in a fight to discover the truth. Is it terrorism, the accidental release of some toxic military bio weapon -- or something even more sinister?",
     "rating": 5.4,
@@ -5700,6 +5847,15 @@
     "trailer": "Hard Eight - Trailer.mp4",
     "link": "Hard Eight.mp4"
   },
+  {
+    "title": "Harry Potter Collection",
+    "overview": "Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.",
+    "poster_path": "/eVPs2Y0LyvTLZn6AP5Z6O2rtiGB.jpg",
+    "backdrop_path": "/xN6SBJVG8jqqKQrgxthn3J2m49S.jpg",
+    "genre": "Adventure,Fantasy,",
+    "release_date": "2001-11-16",
+    "collection":1,
+    "parts":[
   {
     "title": "Harry Potter and the Philosopher's Stone",
     "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
@@ -5795,7 +5951,7 @@
     "genre": "Fantasy,Adventure,",
     "trailer": "Harry Potter and the Deathly Hallows: Part 2 - Trailer.mp4",
     "link": "Harry Potter and the Deathly Hallows: Part 2.mp4"
-  },
+  }]},
   {
     "title": "The Hateful Eight",
     "overview": "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
@@ -6001,42 +6157,6 @@
     "link": "The Hoax.mp4"
   },
   {
-    "title": "The Hobbit: An Unexpected Journey",
-    "overview": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
-    "rating": 7.3,
-    "poster_path": "/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
-    "backdrop_path": "/xyXmtuvsoM5J3yNad0nvcetpBdY.jpg",
-    "runtime": "2:49",
-    "release_date": "2012-12-12",
-    "genre": "Adventure,Fantasy,Action,",
-    "trailer": "The Hobbit: An Unexpected Journey - Trailer.mp4",
-    "link": "The Hobbit: An Unexpected Journey.mp4"
-  },
-  {
-    "title": "The Hobbit: The Desolation of Smaug",
-    "overview": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
-    "rating": 7.6,
-    "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
-    "backdrop_path": "/npCPnwDyWfQltGfIZKN6WqeUXGI.jpg",
-    "runtime": "2:41",
-    "release_date": "2013-12-11",
-    "genre": "Fantasy,Adventure,Action,",
-    "trailer": "The Hobbit: The Desolation of Smaug - Trailer.mp4",
-    "link": "The Hobbit: The Desolation of Smaug.mp4"
-  },
-  {
-    "title": "The Hobbit: The Battle of the Five Armies",
-    "overview": "Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood. Meanwhile an army of Orcs led by Azog the Defiler is marching on Erebor, fueled by the rise of the dark lord Sauron. Dwarves, elves and men must unite, and the hope for Middle-Earth falls into Bilbo's hands.",
-    "rating": 7.3,
-    "poster_path": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
-    "backdrop_path": "/bVmSXNgH1gpHYTDyF9Q826YwJT5.jpg",
-    "runtime": "2:24",
-    "release_date": "2014-12-10",
-    "genre": "Action,Adventure,Fantasy,",
-    "trailer": "The Hobbit: The Battle of the Five Armies - Trailer.mp4",
-    "link": "The Hobbit: The Battle of the Five Armies.mp4"
-  },
-  {
     "title": "Hoffa",
     "overview": "A portrait of union leader James R. Hoffa, as seen through the eyes of his friend, Bobby Ciaro. The film follows Hoffa through his countless battles with the RTA and President Roosevelt.",
     "rating": 6.3,
@@ -6084,6 +6204,18 @@
     "trailer": "Hoosiers - Trailer.mp4",
     "link": "Hoosiers.mp4"
   },
+{
+  "title": "Horizon: An American Saga - Chapter 1",
+  "overview": "Follow the story of how the Old West was won\u2014and lost\u2014through the blood, sweat and tears of many. Spanning 15 years before, during and following the Civil War from 1859 to 1874, embark on an emotional journey across a country at war with itself, experienced through the lens of families, friends and foes all attempting to discover what it truly means to be the United States of America.",
+  "rating": 7.1,
+  "poster_path": "/hqDkO0W9uk4aiwzn3pTeLO7NPZD.jpg",
+  "backdrop_path": "/8UOAYjhwSF3aPZhm6wgLuyHRyrR.jpg",
+  "runtime": "3:01",
+  "release_date": "2024-06-26",
+  "genre": "Western,Drama,",
+  "trailer": "Horizon: An American Saga - Chapter 1 - Trailer.mp4",
+  "link": "Horizon: An American Saga - Chapter 1.mp4"
+},
   {
     "title": "Horrible Bosses",
     "overview": "For Nick, Kurt and Dale, the only thing that would make the daily grind more tolerable would be to grind their intolerable bosses into dust. Quitting is not an option, so, with the benefit of a few-too-many drinks and some dubious advice from a hustling ex-con, the three friends devise a convoluted and seemingly foolproof plan to rid themselves of their respective employers... permanently.",
@@ -6145,6 +6277,15 @@
     "link": "House of Gucci.mp4"
   },
   {
+    "title": "The Hunger Games Collection",
+    "overview": "A science fiction film series based on the novel of the same name by Suzanne Collins. The film series takes place in a dystopian post-apocalyptic future in the nation of Panem, featuring the protagonist, Katniss Everdeen.",
+    "poster_path": "/n4cKN236lNJpZcPXHTtCuQMvGQs.jpg",
+    "backdrop_path": "/Ipp7cegtub4t0mu7xaKLQkYoGc.jpg",
+    "genre": "Science Fiction,Adventure,Fantasy,",
+    "release_date": "2012-03-12",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Hunger Games",
     "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games.  Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which \u201cTributes\u201d must fight with one another until one survivor remains.  Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy.  If she\u2019s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
     "rating": 7.2,
@@ -6191,7 +6332,7 @@
     "genre": "Action,Adventure,Science Fiction,",
     "trailer": "The Hunger Games: Mockingjay - Part 2 - Trailer.mp4",
     "link": "The Hunger Games: Mockingjay - Part 2.mp4"
-  },
+  }]},
   {
     "title": "The Hunt for Red October",
     "overview": "A new technologically-superior Soviet nuclear sub, the Red October, is heading for the U.S. coast under the command of Captain Marko Ramius. The American government thinks Ramius is planning to attack. Lone CIA analyst Jack Ryan has a different idea: he thinks Ramius is planning to defect, but he has only a few hours to find him and prove it - because the entire Russian naval and air commands are trying to find Ramius, too. The hunt is on!",
@@ -6481,6 +6622,15 @@
     "link": "Independence Day.mp4"
   },
   {
+    "title": "Indiana Jones Collection",
+    "overview": "Adventure film series created by George Lucas and Philip Kaufman starring Harrison Ford as archaeologist Dr. Henry Walton Indiana Jones, Jr., and directed by Steven Spielberg and James Mangold. Spanning the globe, on death-defying archeological endeavors, if adventure has a name... it must be Indiana Jones.",
+    "poster_path": "/lpxDrACKJhbbGOlwVMNz5YCj6SI.jpg",
+    "backdrop_path": "/6kh59mZizZsttZPR0HAdXk6Ve2n.jpg",
+    "genre": "Adventure,Action,",
+    "release_date": "1981-06-12",
+    "collection":1,
+    "parts":[
+  {
     "title": "Indiana Jones Raiders of the Lost Ark",
     "overview": "When Dr. Indiana Jones \u2013 the tweed-suited professor who just happens to be a celebrated archaeologist \u2013 is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
     "rating": 7.9,
@@ -6539,7 +6689,7 @@
     "genre": "Adventure,Action,",
     "trailer": "Indiana Jones and the Dial of Destiny - Trailer.mp4",
     "link": "Indiana Jones and the Dial of Destiny.mp4"
-  },
+  }]},
   {
     "title": "The Infiltrator",
     "overview": "A U.S Customs official uncovers a massive money laundering scheme involving Pablo Escobar.",
@@ -6587,18 +6737,6 @@
     "genre": "Drama,Thriller,War,",
     "trailer": "Inglourious Basterds - Trailer.mp4",
     "link": "Inglourious Basterds.mp4"
-  },
-  {
-    "title": "Inside Job",
-    "overview": "A film that exposes the shocking truth behind the economic crisis of 2008. The global financial meltdown, at a cost of over $20 trillion, resulted in millions of people losing their homes and jobs. Through extensive research and interviews with major financial insiders, politicians and journalists, Inside Job traces the rise of a rogue industry and unveils the corrosive relationships which have corrupted politics, regulation and academia.",
-    "rating": 7.7,
-    "poster_path": "/8fy2LWdZhfoM4xZ9QbHkjSpGjPX.jpg",
-    "backdrop_path": "/1yFmxvVYgVrFKL2ksFzgX0MrWOM.jpg",
-    "runtime": "1:49",
-    "release_date": "2010-10-08",
-    "genre": "Documentary,Crime,",
-    "trailer": "Inside Job - Trailer.mp4",
-    "link": "Inside Job.mp4"
   },
   {
     "title": "Inside Man",
@@ -7825,18 +7963,6 @@
     "link": "Little Children.mp4"
   },
   {
-    "title": "Little Fockers",
-    "overview": "It has taken 10 years, two little Fockers with wife Pam and countless hurdles for Greg to finally get in with his tightly wound father-in-law, Jack. After the cash-strapped dad takes a job moonlighting for a drug company, Jack's suspicions about his favorite male nurse come roaring back. When Greg and Pam's entire clan descends for the twins' birthday party, Greg must prove to the skeptical Jack that he's fully capable as the man of the house.",
-    "rating": 5.6,
-    "poster_path": "/90mwPRNMmX9RUGVgKMJMJNQnYX8.jpg",
-    "backdrop_path": "/sLDoVwrzmKNdiBmykPSxaJA7uQh.jpg",
-    "runtime": "1:38",
-    "release_date": "2010-12-21",
-    "genre": "Comedy,Romance,",
-    "trailer": "Little Fockers - Trailer.mp4",
-    "link": "Little Fockers.mp4"
-  },
-  {
     "title": "Little Miss Sunshine",
     "overview": "A family loaded with quirky, colorful characters piles into an old van and road trips to California for little Olive to compete in a beauty pageant.",
     "rating": 7.7,
@@ -7933,42 +8059,6 @@
     "link": "Lord of War.mp4"
   },
   {
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
-    "rating": 8.4,
-    "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-    "backdrop_path": "/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
-    "runtime": "2:59",
-    "release_date": "2001-12-18",
-    "genre": "Adventure,Fantasy,Action,",
-    "trailer": "The Lord of the Rings: The Fellowship of the Ring - Trailer.mp4",
-    "link": "The Lord of the Rings: The Fellowship of the Ring.mp4"
-  },
-  {
-    "title": "The Lord of the Rings: The Two Towers",
-    "overview": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
-    "rating": 8.4,
-    "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
-    "backdrop_path": "/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
-    "runtime": "2:59",
-    "release_date": "2002-12-18",
-    "genre": "Adventure,Fantasy,Action,",
-    "trailer": "The Lord of the Rings: The Two Towers - Trailer.mp4",
-    "link": "The Lord of the Rings: The Two Towers.mp4"
-  },
-  {
-    "title": "The Lord of the Rings: The Return of the King",
-    "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
-    "rating": 8.5,
-    "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "backdrop_path": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-    "runtime": "3:21",
-    "release_date": "2003-12-01",
-    "genre": "Adventure,Fantasy,Action,",
-    "trailer": "The Lord of the Rings: The Return of the King - Trailer.mp4",
-    "link": "The Lord of the Rings: The Return of the King.mp4"
-  },
-  {
     "title": "The Lost Boys",
     "overview": "When an unsuspecting town newcomer is drawn to local blood fiends, the Frog brothers and other unlikely heroes gear up to rescue him.",
     "rating": 7.1,
@@ -8017,6 +8107,15 @@
     "link": "The Machinist.mp4"
   },
   {
+    "title": "Mad Max Collection",
+    "overview": "Mad Max is an Australian dystopian action media franchise. Mad Max references are deeply embedded in popular culture; references to its dystopian, apocalyptic, and post-apocalyptic themes and bizarre landscape and desolate wasteland imagery.",
+    "poster_path": "/5q63RIHE6SeLlaOaUWLL9vMcwsu.jpg",
+    "backdrop_path": "/7ECkRbU1OvDCDLxUv5YBBDxfGF3.jpg",
+    "genre": "Adventure,Action,Thriller,Science Fiction,",
+    "release_date": "1979-04-12",
+    "collection":1,
+    "parts":[
+  {
     "title": "Mad Max",
     "overview": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them.",
     "rating": 6.7,
@@ -8063,7 +8162,7 @@
     "genre": "Action,Adventure,Science Fiction,",
     "trailer": "Mad Max: Fury Road - Trailer.mp4",
     "link": "Mad Max: Fury Road.mp4"
-  },
+  }]},
   {
   "title": "Magnolia",
   "overview": "An epic mosaic of many interrelated characters in search of happiness, forgiveness, and meaning in the San Fernando Valley.",
@@ -8281,6 +8380,15 @@
     "link": "The Matador.mp4"
   },
   {
+    "title": "The Matrix Collection",
+    "overview": "The Matrix series features a cyberpunk story of the technological fall of humanity, in which the creation of artificial intelligence led the way to a race of powerful and self-aware machines that imprisoned humans in a neural interactive simulation",
+    "poster_path": "/bV9qTVHTVf0gkW0j7p7M0ILD4pG.jpg",
+    "backdrop_path": "/bRm2DEgUiYciDw3myHuYFInD7la.jpg",
+    "genre": "Action,Science Fiction,",
+    "collection":1,
+    "release_date": "1999-03-31",
+    "parts":[
+  {
     "title": "The Matrix",
     "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
     "rating": 8.2,
@@ -8315,7 +8423,7 @@
     "genre": "Adventure,Action,Thriller,Science Fiction,",
     "trailer": "The Matrix Revolutions - Trailer.mp4",
     "link": "The Matrix Revolutions.mp4"
-  },
+  }]},
   {
     "title": "Maverick",
     "overview": "Maverick is a gambler who would rather con someone than fight them, and needs an additional three thousand dollars in order to enter a winner-takes-all poker game that begins in a few days, so he joins forces with a woman gambler with a marvellous southern accent, and the two try and enter the game.",
@@ -8411,6 +8519,18 @@
     "genre": "Comedy,Romance,",
     "trailer": "Meet the Fockers - Trailer.mp4",
     "link": "Meet the Fockers.mp4"
+  },
+   {
+    "title": "Little Fockers",
+    "overview": "It has taken 10 years, two little Fockers with wife Pam and countless hurdles for Greg to finally get in with his tightly wound father-in-law, Jack. After the cash-strapped dad takes a job moonlighting for a drug company, Jack's suspicions about his favorite male nurse come roaring back. When Greg and Pam's entire clan descends for the twins' birthday party, Greg must prove to the skeptical Jack that he's fully capable as the man of the house.",
+    "rating": 5.6,
+    "poster_path": "/90mwPRNMmX9RUGVgKMJMJNQnYX8.jpg",
+    "backdrop_path": "/sLDoVwrzmKNdiBmykPSxaJA7uQh.jpg",
+    "runtime": "1:38",
+    "release_date": "2010-12-21",
+    "genre": "Comedy,Romance,",
+    "trailer": "Little Fockers - Trailer.mp4",
+    "link": "Little Fockers.mp4"
   },
   {
     "title": "The Men Who Stare at Goats",
@@ -8521,6 +8641,88 @@
     "link": "Michael Clayton.mp4"
   },
   {
+    "title": "The Middle Earth Collection",
+    "overview": "The saga of extraordinary adventures across the treacherous landscape of Middle-earth and reveals how the power of friendship, love and courage can hold the forces of darkness at bay. The Hobbit & The Lord of the Rings",
+    "poster_path": "/e7nfGHBZCS45lwRTqGZUKVpLpio.jpg",
+    "backdrop_path": "/2a1509c3cf23d151.jpg",
+    "genre": "Adventure,Fantasy,Action,",
+    "release_date": "2012-12-12",
+    "collection":1,
+    "parts":[
+    {
+    "title": "The Hobbit: An Unexpected Journey",
+    "overview": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
+    "rating": 7.3,
+    "poster_path": "/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
+    "backdrop_path": "/xyXmtuvsoM5J3yNad0nvcetpBdY.jpg",
+    "runtime": "2:49",
+    "release_date": "2012-12-12",
+    "genre": "Adventure,Fantasy,Action,",
+    "trailer": "The Hobbit: An Unexpected Journey - Trailer.mp4",
+    "link": "The Hobbit: An Unexpected Journey.mp4"
+  },
+  {
+    "title": "The Hobbit: The Desolation of Smaug",
+    "overview": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
+    "rating": 7.6,
+    "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
+    "backdrop_path": "/npCPnwDyWfQltGfIZKN6WqeUXGI.jpg",
+    "runtime": "2:41",
+    "release_date": "2013-12-11",
+    "genre": "Fantasy,Adventure,Action,",
+    "trailer": "The Hobbit: The Desolation of Smaug - Trailer.mp4",
+    "link": "The Hobbit: The Desolation of Smaug.mp4"
+  },
+  {
+    "title": "The Hobbit: The Battle of the Five Armies",
+    "overview": "Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood. Meanwhile an army of Orcs led by Azog the Defiler is marching on Erebor, fueled by the rise of the dark lord Sauron. Dwarves, elves and men must unite, and the hope for Middle-Earth falls into Bilbo's hands.",
+    "rating": 7.3,
+    "poster_path": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+    "backdrop_path": "/bVmSXNgH1gpHYTDyF9Q826YwJT5.jpg",
+    "runtime": "2:24",
+    "release_date": "2014-12-10",
+    "genre": "Action,Adventure,Fantasy,",
+    "trailer": "The Hobbit: The Battle of the Five Armies - Trailer.mp4",
+    "link": "The Hobbit: The Battle of the Five Armies.mp4"
+    },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "rating": 8.4,
+    "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop_path": "/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+    "runtime": "2:59",
+    "release_date": "2001-12-18",
+    "genre": "Adventure,Fantasy,Action,",
+    "trailer": "The Lord of the Rings: The Fellowship of the Ring - Trailer.mp4",
+    "link": "The Lord of the Rings: The Fellowship of the Ring.mp4"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "overview": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+    "rating": 8.4,
+    "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+    "backdrop_path": "/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
+    "runtime": "2:59",
+    "release_date": "2002-12-18",
+    "genre": "Adventure,Fantasy,Action,",
+    "trailer": "The Lord of the Rings: The Two Towers - Trailer.mp4",
+    "link": "The Lord of the Rings: The Two Towers.mp4"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+    "rating": 8.5,
+    "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "backdrop_path": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+    "runtime": "3:21",
+    "release_date": "2003-12-01",
+    "genre": "Adventure,Fantasy,Action,",
+    "trailer": "The Lord of the Rings: The Return of the King - Trailer.mp4",
+    "link": "The Lord of the Rings: The Return of the King.mp4"
+  }
+  ]},
+  {
     "title": "Miller's Crossing",
     "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
     "rating": 7.5,
@@ -8617,6 +8819,15 @@
     "link": "Mission to Mars.mp4"
   },
   {
+    "title": "Mission: Impossible Collection",
+    "overview": "Mission: Impossible is a series of a secret agent thriller films based on the popular television series. They chronicle the missions of a team of secret government agents known as the Impossible Missions Force (IMF) under the leadership of agent Ethan Hunt.",
+    "poster_path": "/geEjCGfdmRAA1skBPwojcdvnZ8A.jpg",
+    "backdrop_path": "/jYl0UuJFcmhymv9ZNO14lPLDY1Z.jpg",
+    "genre": "Action,Adventure,",
+    "release_date": "2015-07-23",
+    "collection":1,
+    "parts":[
+  {
     "title": "Mission: Impossible - Rogue Nation",
     "overview": "Ethan and team take on their most impossible mission yet\u2014eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF.",
     "rating": 7.2,
@@ -8651,7 +8862,7 @@
     "genre": "Action,Thriller,",
     "trailer": "Mission: Impossible - Dead Reckoning Part One - Trailer.mp4",
     "link": "Mission: Impossible - Dead Reckoning Part One.mp4"
-  },
+  }]},
   {
     "title": "Mississippi Burning",
     "overview": "Two FBI agents investigating the murder of civil rights workers during the 60s seek to breach the conspiracy of silence in a small Southern town where segregation divides black and white. The younger agent trained in FBI school runs up against the small town ways of his partner, a former sheriff.",
@@ -8880,6 +9091,18 @@
     "trailer": "Multiplicity - Trailer.mp4",
     "link": "Multiplicity.mp4"
   },
+  {
+  "title": "The Mummy",
+  "overview": "Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love\u2014along with a curse that guarantees eternal doom upon the world if he is ever awoken.",
+  "rating": 6.9,
+  "poster_path": "/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg",
+  "backdrop_path": "/ygTSl89OtmXY4ESMpEF7qZcpGR8.jpg",
+  "runtime": "2:04",
+  "release_date": "1999-04-16",
+  "genre": "Adventure,Action,Fantasy,",
+  "trailer": "The Mummy - Trailer.mp4",
+  "link": "The Mummy.mp4"
+},
   {
     "title": "The Mummy Returns",
     "overview": "Rick and Evelyn O\u2019Connell, along with their 8-year-old son Alex, discover the key to the legendary Scorpion King\u2019s might: the fabled Bracelet of Anubis. Unfortunately, a newly resurrected Imhotep has designs on the bracelet as well, and isn\u2019t above kidnapping its new bearer, Alex, to gain control of Anubis\u2019s otherworldly army.",
@@ -9337,6 +9560,15 @@
     "link": "Oblivion.mp4"
   },
   {
+    "title": "Ocean's Collection",
+    "overview": "The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.",
+    "poster_path": "/AfnoEKS3dI0KGaSkyVNce6GpMaG.jpg",
+    "backdrop_path": "/7WUSrq8DqSkVgv1vmhBvav5bPoB.jpg",
+    "genre": "Thriller,Crime,",
+    "release_date": "2001-12-07",
+    "collection":1,
+    "parts":[
+  {
     "title": "Ocean's Eleven",
     "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
     "rating": 7.4,
@@ -9383,7 +9615,7 @@
     "genre": "Crime,Comedy,Action,",
     "trailer": "Ocean's Eight - Trailer.mp4",
     "link": "Ocean's Eight.mp4"
-  },
+  }]},
   {
     "title": "October Sky",
     "overview": "Based on the true story of Homer Hickam, a coal miner's son who was inspired by the first Sputnik launch to take up rocketry against his father's wishes, and eventually became a NASA scientist.",
@@ -9445,6 +9677,15 @@
     "link": "Olympus Has Fallen.mp4"
   },
   {
+    "title": "The Omen Collection",
+    "overview": "Supernatural horror series centered around Damien Thorn, the Antichrist.",
+    "poster_path": "/5De8Hqq0z9gmDM7SbWU0C5pTjPC.jpg",
+    "backdrop_path": "/oUYQRGJoizNc226CJygOIo7Jj7x.jpg",
+    "genre": "Horror,Thriller,",
+    "release_date": "1976-06-25",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Omen",
     "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn\u2019t know is that their new son is the son of the devil.",
     "rating": 7.4,
@@ -9479,7 +9720,7 @@
     "genre": "Horror,Mystery,Thriller,",
     "trailer": "The Omen III: The Final Conflict - Trailer.mp4",
     "link": "The Omen III: The Final Conflict.mp4"
-  },
+  }]},
   {
     "title": "Once Upon a Time in America",
     "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
@@ -9925,6 +10166,15 @@
     "link": "Pink Floyd: The Wall.mp4"
   },
   {
+    "title": "Pirates of the Caribbean Collection",
+    "overview": "A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers.",
+    "poster_path": "/mx2IHsrdLVgqCTB149H6WONjyqM.jpg",
+    "backdrop_path": "/wxgD3fB5lQ2sGJLog0rvXW049Pf.jpg",
+    "genre": "Adventure,Fantasy,Action,",
+    "release_date": "2003-07-09",
+    "collection":1,
+    "parts":[
+  {
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "overview": "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her.",
     "rating": 7.8,
@@ -9948,6 +10198,42 @@
     "trailer": "Pirates of the Caribbean: Dead Man's Chest - Trailer.mp4",
     "link": "Pirates of the Caribbean: Dead Man's Chest.mp4"
   },
+  {
+  "title": "Pirates of the Caribbean: At World's End",
+  "overview": "Captain Barbossa, long believed to be dead, has come back to life and is headed to the edge of the Earth with Will Turner and Elizabeth Swann. But nothing is quite as it seems.",
+  "rating": 7.3,
+  "poster_path": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
+  "backdrop_path": "/kPcHuPYqzkSo4bmPHtH82GaeEgX.jpg",
+  "runtime": "2:49",
+  "release_date": "2007-05-19",
+  "genre": "Adventure,Fantasy,Action,",
+  "trailer": "Pirates of the Caribbean: At World's End - Trailer.mp4",
+  "link": "Pirates of the Caribbean: At World's End.mp4"
+},
+{
+  "title": "Pirates of the Caribbean: On Stranger Tides",
+  "overview": "Captain Jack Sparrow crosses paths with a woman from his past, and he's not sure if it's love -- or if she's a ruthless con artist who's using him to find the fabled Fountain of Youth. When she forces him aboard the Queen Anne's Revenge, the ship of the formidable pirate Blackbeard, Jack finds himself on an unexpected adventure in which he doesn't know who to fear more: Blackbeard or the woman from his past.",
+  "rating": 6.6,
+  "poster_path": "/keGfSvCmYj7CvdRx36OdVrAEibE.jpg",
+  "backdrop_path": "/uzIGtyS6bbnJzGsPL93WCF1FWm8.jpg",
+  "runtime": "2:17",
+  "release_date": "2011-05-15",
+  "genre": "Adventure,Action,Fantasy",
+  "trailer": "Pirates of the Caribbean: On Stranger Tides - Trailer.mp4",
+  "link": "Pirates of the Caribbean: On Stranger Tides.mp4"
+},
+{
+  "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+  "overview": "Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy.",
+  "rating": 6.7,
+  "poster_path": "/qwoGfcg6YUS55nUweKGujHE54Wy.jpg",
+  "backdrop_path": "/7C921eWK06n12c1miRXnYoEu5Yv.jpg",
+  "runtime": "2:08",
+  "release_date": "2017-05-23",
+  "genre": "Adventure,Action,Fantasy,",
+  "trailer": "Pirates of the Caribbean: Dead Men Tell No Tales - Trailer.mp4",
+  "link": "Pirates of the Caribbean: Dead Men Tell No Tales.mp4"
+}]},
   {
     "title": "Pitch Black",
     "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
@@ -11221,18 +11507,6 @@
     "link": "Sherlock Holmes: A Game of Shadows.mp4"
   },
   {
-    "title": "Sherlock: The Abominable Bride",
-    "overview": "Sherlock Holmes and Dr. Watson find themselves in 1890s London in this holiday special.",
-    "rating": 7.9,
-    "poster_path": "/hibE8cyZs2Bm0o4WaWd1pppvjO2.jpg",
-    "backdrop_path": "/gGeoc8rFfPRIakXNttoFU85YVwv.jpg",
-    "runtime": "1:30",
-    "release_date": "2016-01-01",
-    "genre": "Crime,Drama,Mystery,TV Movie,",
-    "trailer": "Sherlock: The Abominable Bride - Trailer.mp4",
-    "link": "Sherlock: The Abominable Bride.mp4"
-  },
-  {
     "title": "Shooter",
     "overview": "A top Marine sniper, Bob Lee Swagger, leaves the military after a mission goes horribly awry and disappears, living in seclusion. He is coaxed back into service after a high-profile government official convinces him to help thwart a plot to kill the President of the United States. Ultimately double-crossed and framed for the attempt, Swagger becomes the target of a nationwide manhunt. He goes on the run to track the real killer and find out who exactly set him up, and why, eventually seeking revenge against some of the most powerful and corrupt leaders in the free world.",
     "rating": 7.1,
@@ -11339,42 +11613,6 @@
     "genre": "Drama,Thriller,Science Fiction,Mystery,",
     "trailer": "Signs - Trailer.mp4",
     "link": "Signs.mp4"
-  },
-  {
-    "title": "The Silence of the Lambs",
-    "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
-    "rating": 8.3,
-    "poster_path": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
-    "backdrop_path": "/aYcnDyLMnpKce1FOYUpZrXtgUye.jpg",
-    "runtime": "1:59",
-    "release_date": "1991-02-14",
-    "genre": "Crime,Drama,Thriller,",
-    "trailer": "The Silence of the Lambs - Trailer.mp4",
-    "link": "The Silence of the Lambs.mp4"
-  },
-  {
-    "title": "Hannibal",
-    "overview": "After having successfully eluded the authorities for years, Hannibal peacefully lives in Italy in disguise as an art scholar. Trouble strikes again when he's discovered leaving a deserving few dead in the process. He returns to America to make contact with now disgraced Agent Clarice Starling, who is suffering the wrath of a malicious FBI rival as well as the media.",
-    "rating": 6.8,
-    "poster_path": "/v5wAZwRqpGWmyAaaJ8BBHYuNXnj.jpg",
-    "backdrop_path": "/fM736e6Za4tofRqPFguhdE3MjpO.jpg",
-    "runtime": "2:11",
-    "release_date": "2001-02-08",
-    "genre": "Crime,Drama,Thriller,",
-    "trailer": "Hannibal - Trailer.mp4",
-    "link": "Hannibal.mp4"
-  },
-  {
-    "title": "Red Dragon",
-    "overview": "Former FBI Agent Will Graham, who was once almost killed by the savage Hannibal 'The Cannibal' Lecter, now has no choice but to face him again, as it seems Lecter is the only one who can help Graham track down a new serial killer.",
-    "rating": 7.0,
-    "poster_path": "/ou9ZKA2cms02b7CdCdVqGkKu0O0.jpg",
-    "backdrop_path": "/7c65xpnYlea6VITznLLRS9cTuwS.jpg",
-    "runtime": "2:04",
-    "release_date": "2002-10-02",
-    "genre": "Crime,Thriller,Horror,",
-    "trailer": "Red Dragon - Trailer.mp4",
-    "link": "Red Dragon.mp4"
   },
   {
     "title": "Silver Linings Playbook",
@@ -11629,18 +11867,6 @@
     "link": "Solaris.mp4"
   },
   {
-    "title": "The Soloist",
-    "overview": "A Los Angeles journalist befriends a homeless Juilliard-trained musician, while looking for a new article for the paper.",
-    "rating": 6.7,
-    "poster_path": "/jdu0nyQAdlowEnoKY1rnjMbWs9l.jpg",
-    "backdrop_path": "/lmjofW3eTsdMIFVVA5J3ZGeP46t.jpg",
-    "runtime": "1:49",
-    "release_date": "2009-04-24",
-    "genre": "Drama,Music,",
-    "trailer": "The Soloist - Trailer.mp4",
-    "link": "The Soloist.mp4"
-  },
-  {
     "title": "Something's Gotta Give",
     "overview": "Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his latest trophy girlfriend. Things get a little awkward when Harry suffers a heart attack at the home of Marin's mother, Erica. Left in the care of Erica and his doctor, a love triangle starts to take shape.",
     "rating": 6.6,
@@ -11713,6 +11939,15 @@
     "link": "Speed.mp4"
   },
   {
+    "title": "Spider-Man Collection",
+    "overview": "A superhero film series based on the Marvel Comics character Spider-Man. The series is centered on Peter Parker, an academically gifted but socially inept freelance photographer who gets bitten by a genetically modified spider and gains spider-like abilities, all of which he uses to fight crime as a spider-masked vigilante, learning for himself that with great power comes great responsibility.",
+    "poster_path": "/bp5PqLa06QA1LsELA1SsKZ008H7.jpg",
+    "backdrop_path": "/xTocoWSQrK9YSvHedsa5xSemykC.jpg",
+    "genre": "Action,Science Fiction,",
+    "release_date": "2002-05-01",
+    "collection":1,
+    "parts":[
+  {
     "title": "Spider-Man",
     "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
     "rating": 7.3,
@@ -11747,7 +11982,7 @@
     "genre": "Action,Adventure,Science Fiction,",
     "trailer": "Spider-Man 3 - Trailer.mp4",
     "link": "Spider-Man 3.mp4"
-  },
+  }]},
   {
     "title": "Spiderhead",
     "overview": "A prisoner in a state-of-the-art penitentiary begins to question the purpose of the emotion-controlling drugs he's testing for a pharmaceutical genius.",
@@ -11893,6 +12128,15 @@
     "link": "Star Trek Into Darkness.mp4"
   },
   {
+    "title": "Star Wars Saga",
+    "overview": "Star Wars Saga set a long time ago in a fictional galaxy ruled by the tyrannical Galactic Empire, the story follows a group of freedom fighters known as the Rebel Alliance, who aim to destroy the Empire",
+    "poster_path": "/oG2xkP2Kwkrn3C8dyqyRXMOEx50.jpg",
+    "backdrop_path": "/d8duYyyC9J5T825Hg7grmaabfxQ.jpg",
+    "genre": "Adventure,Action,Science Fiction,",
+    "release_date": "1977-05-25",
+    "collection":1,
+    "parts":[
+  {
     "title": "Star Wars: A New Hope",
     "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
     "rating": 8.2,
@@ -11999,7 +12243,7 @@
     "genre": "Adventure,Action,Science Fiction,",
     "trailer": "Star Wars: The Rise of Skywalker - Trailer.mp4",
     "link": "Star Wars: The Rise of Skywalker.mp4"
-  },
+  }]},
   {
     "title": "Stargate",
     "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
@@ -12337,6 +12581,15 @@
     "link": "The Terminal.mp4"
   },
   {
+    "title": "The Terminator Collection",
+    "overview": "A series of science-fiction films about the futuristic conflict between the humans led by John Connor and the Terminators that are made and controlled by Skynet, a self-aware super computer that started Armageddon and may indeed end humanity for good. Skynet's most well-known products in its genocidal goals are the various terminator models, such as the T-800 (Model 101).",
+    "poster_path": "/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg",
+    "backdrop_path": "/5swQRtrFigXwLdaH4Y2UeJjZHCy.jpg",
+    "genre": "Action,Thriller,Science Fiction,",
+    "release_date": "1984-10-26",
+    "collection":1,
+    "parts":[
+  {
     "title": "The Terminator",
     "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
     "rating": 7.7,
@@ -12371,7 +12624,7 @@
     "genre": "Science Fiction,Adventure,Action,",
     "trailer": "Terminator: Dark Fate - Trailer.mp4",
     "link": "Terminator: Dark Fate.mp4"
-  },
+  }]},
   {
     "title": "Terms of Endearment",
     "overview": "Aurora, a finicky woman, is in search of true love while her daughter faces marital issues. Together, they help each other deal with problems and find reasons to live a joyful life.",
@@ -12877,6 +13130,15 @@
     "link": "Tucker: The Man and His Dream.mp4"
   },
   {
+    "title": "The Twilight Saga",
+    "overview": "Twilight Saga is a series of fantasy romance that follows the life of Isabella Bella Swan, a human teenager who moves to Forks, Washington and finds her life turned upside-down when she falls in love with a vampire named Edward Cullen.",
+    "poster_path": "/aKAX2HO5V94JYeSIkOMFNlRI71E.jpg",
+    "backdrop_path": "/3be0BffeZTyMbj4Ndzo6Y877SBQ.jpg",
+    "genre": "Fantasy,Drama,Romance,",
+    "release_date": "2008-11-20",
+    "collection":1,
+    "parts":[
+  {
     "title": "Twilight",
     "overview": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life.",
     "rating": 6.3,
@@ -12935,7 +13197,7 @@
     "genre": "Adventure,Fantasy,Drama,Romance,",
     "trailer": "The Twilight Saga: New Moon - Trailer.mp4",
     "link": "The Twilight Saga: New Moon.mp4"
-  },
+  }]},
   {
     "title": "Twilight Zone: The Movie",
     "overview": "1959. Friday nights. We time-traveled. Witnessed surprising twists. Entertained aliens. Experienced fear. And first journeyed to \"The Twilight Zone\" of Rod Serling's memorable TV series. And guided by four imaginative moviemakers, we traveled there again in 1983. Directors John Landis, Steven Spielberg, Joe Dante and George Miller fashion stories based on or inspired by classic episodes. Landis weaves the tale of a bigot who gets a walloping dose of his own hatred. Spielberg takes over with a fable of senior citizens offered a magical rejuvenation. Dante serves up a terror trip with a child who uses his cartoon-inspired powers to enslave his family. Then fright goes aloft with Miller's finale about a neurotic passenger who sees a monster on the jetliner's wing. Or does he?",
