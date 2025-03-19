@@ -1,0 +1,25 @@
+#!/bin/bash
+newline='\n'
+### ***************** Bleacbit cleaner script **************************************
+
+bleachbitLog=$(bleachbit -p firefox.backup firefox.cache firefox.crash_reports firefox.session_restore firefox.url_history firefox.vacuum firefox.dom bash.history journald.clean kde.recent_documents kde.cache kde.tmp system.cache system.clipboard system.rotated_logs system.tmp system.cache system.clipboard system.memory system.recent_documents system.tmp system.trash thumbnails.cache x11.debug_logs) >/dev/null
+spacemsg=$(echo "$bleachbitLog" | grep -i 'recovered:') > /dev/null
+filesmsg=$(echo "$bleachbitLog" | grep -i 'deleted:') > /dev/null
+bleachbit -c firefox.backup firefox.cache firefox.crash_reports firefox.session_restore firefox.url_history firefox.vacuum firefox.dom bash.history journald.clean kde.recent_documents kde.cache kde.tmp system.tmp system.cache system.clipboard system.clipboard system.recent_documents system.trash system.free_disk_space thumbnails.cache x11.debug_logs
+balooctl disable && balooctl purge && balooctl enable && balooctl check
+# export DBUS_SESSION_BUS_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-unix:path=/run/user/${UID}/bus}"
+# env DISPLAY=:0 notify-send 'Bleachbit Cleaner Completed!'
+# env DISPLAY=:0 XAUTHORITY=/home/matt/.Xauthority DBUS_SESSION_BUS_ADDRESS:-unix:path=/run/user/1000/bus
+# env DISPLAY=:0
+/home/matt/.local/bin/notify-send.sh 'Bleachbit Cleaner Completed!' --expire-time=7000 --default-action="kate /tmp/bleachbit.log" --hint=string:desktop-entry:org.bleachbit.BleachBit.desktop --app-name="Bleachbit" --urgency=normal --icon=preferences-system-services
+date1=$(date) > /dev/null
+echo "====================================================================================================================================" >>/tmp/bleachbit.log
+echo "$date1" >>/tmp/bleachbit.log
+echo "$spacemsg" >>/tmp/bleachbit.log
+echo "$filesmsg" >>/tmp/bleachbit.log
+echo "====================================================================================================================================" >>/tmp/bleachbit.log
+apt clean -y
+apt autoclean -y
+aptitude purge ‘~c’
+apt autoremove -y --purge
+exit 0

@@ -1,0 +1,67 @@
+#!/bin/bash
+trap ctrl_c INT
+#### script to d/l hls stream **************************
+
+### vars for media downloads ***************************
+mediaTitle="Always at The Carlyle"
+url="https://ea.megacdn.co:2228/v3-hls-playback/523e0ea0ff1da6ba3b6a10317d32abcad7d145a9724c6fd85c6ef0077362f04834a4ebeafcf56a8bbbfc8095c47d808f07093fac91437aab88ef055549ea67eddf04f41738aee5c241990abd377f3adcc97e7f1082585558db90321e3b9738666c2e6e10a65c85a50ea2423efbd11113462b809feaaf6023b655228381abc6a88c1b20c73d33e2e4c09854760e5a1c077bb3cb77bf276aa21579ff234416cdd605100a76a1fcb21e4088690f75f3248774472be3861b46929e06bd3e35eda113/480/index.m3u8"
+tempFile="/tmp/New/${mediaTitle}.mp4"
+ua="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+# Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.113/114 Safari/537.36
+options=(-q -c --progress --ignore-config --abort-on-unavailable-fragments --no-warnings --user-agent "$ua" --hls-prefer-native --no-check-certificate --socket-timeout 8 --concurrent-fragments 8 --retries 25 --fragment-retries 25 --retry-sleep 5 )
+### *****************************************************
+
+### ascii colors
+start=`date +%s` > /dev/null
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[1;33m'
+cyan='\033[1;36m'
+clear='\033[0m'
+white='\033[1;97m'
+## *****************************************************
+
+while /bin/true; do qdbus org.freedesktop.ScreenSaver /ScreenSaver SimulateUserActivity ; sleep 5m; done &
+appID=$!
+
+function ctrl_c () {
+    { kill -9 $appID && wait; } 2>/dev/null
+    { kill -9 $$ && wait; } 2>/dev/null
+}
+
+clear
+echo "Downloading $mediaTitle"
+while ! yt-dlp $url "${options[@]}" --format mp4 -o "$tempFile"; do echo "Errors, Restarting"; sleep 5; done
+ftime=`date +"%m-%d-%Y %l:%M %P"`
+clear
+if ffmpeg -v quiet -y -i "$tempFile" -metadata title="$mediaTitle" -codec copy "/home/data/Movies/$mediaTitle.mp4"; then
+   rm "$tempFile";
+   rm -f /home/data/Movies/New/*.temp;
+   echo " "
+   echo -e "${yellow}*********************************************************************${clear}"
+   echo -e "Duration: $((($(date +%s)-$start)/60)) minutes";
+   echo -e "${clear}Download of ${white}$mediaTitle${clear} completed at  $ftime${clear}"
+   echo -e "${yellow}*********************************************************************${clear}"
+else
+   echo " "
+   echo -e "${yellow}*********************************************************************${clear}"
+   echo -e "Duration: $((($(date +%s)-$start)/60)) minutes";
+   echo -e "${red}Download of ${white}$mediaTitle${red} failed at  $ftime${clear}"
+   echo -e "Check Temp folder..."
+   echo -e "${yellow}*********************************************************************${clear}"
+fi
+aplay -q "/home/matt/projects/sounds/Windows Unlock.wav"
+ctrl_c
+
+## errors / slow downs from rate limits on servers,better to start early in the day or early morning am...
+## the ppl who encoded the videos already chose the best settings for most titles, most of them look great,
+## dont worry about the quality, except 720p when there should be a 1080p file, makes no sense why some have only 720p, maybe year released, or popularity
+# --force-ipv4 --no-hls-use-mpegts -f "bv+ba/b[protocol^=m3u8]"
+# -movflags +faststart
+## yt-dlp --list-formats https://youtu.be/yOSnUmLt5VQ
+## yt-dlp -f "bestvideo[height<=1080][vcodec=h264][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]" -o "/home/data/Movies/New/Pink Floyd - Delicate Sound of Thunder.mp4" https://youtu.be/13m5-0EOwIM
+# Pink Floyd: Delicate Sound of Thunder
+## yt-dlp -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" -o "/home/data/Movies/Trailers/The Shining - Trailer.mp4" https://youtu.be/S014oGZiSdI
+# yt-dlp  -f 614 -o  "/home/data/Movies/New/B.B. King & Friends.mp4" https://youtu.be/yOSnUmLt5VQ
+###
+# yt-dlp -f "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]" --force-overwrite -o "/home/data/Movies/Trailers/Gladiator II - Trailer.mp4" https://youtu.be/YZf8zpchbXE

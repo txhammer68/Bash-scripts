@@ -1,0 +1,63 @@
+#!/bin/bash
+# set -e
+echo "Backing up custom settings..."
+
+cp -p /root/.bashrc /home/data/projects/system-settings/2024/root/
+cp -p /boot/efi/loader/loader.conf /home/data/projects/system-settings/2024/
+cp -p /boot/efi/loader/entries/plasma.conf /home/data/projects/system-settings/2024/
+cp -p /boot/efi/loader/entries/recover.conf /home/data/projects/system-settings/2024/
+cp -p /etc/environment /home/data/projects/system-settings/2024/
+cp -p /home/matt/.bashrc  /home/data/projects/system-settings/2024/
+cp -p -r /home/matt/.mame /home/data/projects/system-settings/2024/
+cp -p /home/matt/.config/katerc /home/data/projects/system-settings/2024/
+cp -p /home/matt/.config/dolphinrc /home/data/projects/system-settings/2024/
+cp -p /home/matt/.config/kcm-about-distrorc /home/data/projects/system-settings/2024/
+cp -p /etc/default/minidlna /home/data/projects/system-settings/2024/
+cp -p /etc/minidlna.conf /home/data/projects/system-settings/2024/
+cp -p /etc/X11/xorg.conf.d/10-monitor.conf /home/data/projects/system-settings/2024/
+cp -p /etc/fstab /home/data/projects/system-settings/2024/
+cp -p /etc/pulse/daemon.conf /home/data/projects/system-settings/2024/
+cp -p /etc/alsa/conf.d/99-pulseaudio-default.conf /home/data/projects/system-settings/2024/
+cp -p -r /home/matt/.local/bin/ /home/data/projects/system-settings/2024/
+cp -p -r /home/matt/.local/share/plasma/ /home/data/projects/system-settings/2024/
+cp -p /etc/fonts/conf.avail/68-emoji.conf /home/data/projects/system-settings/2024/
+cp -p /etc/fonts/fonts.conf /home/data/projects/system-settings/2024/
+cp -p /home/matt/.local/share/color-schemes/MyArc.colors /home/data/projects/system-settings/2024/
+cp -p /home/matt/.local/share/color-schemes/MyArcDark.colors /home/data/projects/system-settings/2024/
+cp -p /home/matt/.local/share/color-schemes/ArcDark.colors /home/data/projects/system-settings/2024/
+cp -p -r /home/matt/.config/Kvantum/ /home/data/projects/system-settings/2024/
+cp -p /etc/modprobe.d/i915.conf /home/data/projects/system-settings/2024/
+cp -p /etc/modprobe.d/audio.conf  /home/data/projects/system-settings/2024/
+cp -p /etc/modprobe.d/blacklist.conf /home/data/projects/system-settings/2024/
+cp -p /home/matt/.config/mpv/mpv.conf /home/data/projects/system-settings/2024/
+cp -p -r /usr/share/icons/Papirus /home/data/projects/system-settings/2024/
+cp -p -r /usr/share/icons/Papirus-Dark /home/data/projects/system-settings/2024/
+cp -p -r /usr/share/icons/Papirus-Light /home/data/projects/system-settings/2024/
+cp -r /usr/share/sddm/themes/MyBreeze /home/data/projects/system-settings/2023/sddm/
+cp -r /usr/share/sddm/themes/DigiTech /home/data/projects/system-settings/2023/sddm/
+cp -r /usr/share/sddm/themes/DigiTech2 /home/data/projects/system-settings/2023/sddm/
+cp -p /etc/default/console-setup /home/data/projects/system-settings/2024/
+cp -p /etc/kernel/postinst.d/zz-update-systemd-boot /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/cleaner.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/cleaner.timer /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/cleaner_root.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/nbc.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/nbc.timer /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/cpupower.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/gcal.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/gcal.timer /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/gmail.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/gmail.timer /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/os-update.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/osupdate.path /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/weather.service /home/data/projects/system-settings/2024/
+cp -p /etc/systemd/system/weather.timer /home/data/projects/system-settings/2024/
+cp -p -r /home/matt/.mozilla/firefox/x9wjefdy.default-release/ /home/data/projects/system-settings/2024/
+cp -r -p /usr/share/sddm/themes/DigiTech/ /home/data/projects/system-settings/2024/sddm/
+cp -r -p /usr/share/sddm/themes/DigiTech2/ /home/data/projects/system-settings/2024/sddm/
+cp -r -p /usr/share/sddm/themes/MyBreeze/ /home/data/projects/system-settings/2024/sddm/
+exit
+
+
+
+

@@ -1,0 +1,98 @@
+#!/bin/bash
+start=`date +%s` > /dev/null
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[1;33m'
+cyan='\033[1;36m'
+clear='\033[0m'
+white='\033[1;97m'
+## https://github.com/nilaoda/N_m3u8DL-RE/releases
+
+destFolder="/home/data/Movies/"
+# destFolder='/home/matt/Temp/'
+### /home/data/tvSeries/
+##### metadata tags
+# showTitle="Stranger Things"
+showYear="2024"
+
+titles=(
+"Flash of Genius (2008)"
+"Auto Focus (2002)"
+)
+
+epTitle=(
+"Flash of Genius"
+"Auto Focus"
+)
+
+urlList=(
+"https://f6.megacdn.co:2228/v3-hls-playback/b1dcdfecec5685e5a89c72b84bde3f022c56269a38e4745d211a6aa634d44c3eb783013724000c1c723d79b098b11848d5e1a5e5dd3fe882abd56a8ff1d93a6a6fb700ed89822fa770cdbf5651b7d6fb6b66b18162bf845d6e7e51191cc782e2c86c9b9c26810e8e88d08489000b652f63c20bc8e06b46ba3c7f6df750e09630e7aa6861a60870894204f408e6d021749e4496bd08dce289f0d522be2b709a12efc954d31f5ee136c39f00c45029ae5c6409364e298b41a804bb0c9e97db218b/1080/index.m3u8"
+"https://f8.megacdn.co:2228/v3-hls-playback/b5833262eff7bf0cbdf50678665c693a65f9319b07c907f97cda1439675d616b1446b36d0b3ef1e417d9d38f118985b15201451e2645ca26d5343fcdab47ad2f18befb91eb70ce824f0edf3d4be35c8c600d141bbe956a2ca36f078cbee1f0330b0594c27a08c65fb605c658e9231d34d44d12892c237e371343fd75648c144a46a4635f42bff8db820bef363edc5e0ac9a2f1126761bc0c26fe90879beed23e38971909cef0994c3d6418ce3b629f3ba7a0d919a90920e36424010fe0ce6937/720/index.m3u8"
+)
+
+x=0
+errorCnt=0
+url=""
+mediaTitle=""
+length=${#urlList[@]}
+cnt=$length
+((cnt--))
+completedList=()
+abortedList=()
+
+tempFile="/tmp/New/temp.mp4"
+tempFolder="/tmp/New/"
+options=( --no-log --tmp-dir "$tempFolder" --save-dir "$tempFolder" --save-name "temp" --http-request-timeout 10 --thread-count 12 --download-retry-count 10 --del-after-done --ffmpeg-binary-path /usr/bin/ffmpeg )
+
+
+function getMovie () {
+         clear
+         echo "Downloading $mediaTitle"
+         while ! ./hls "$url" "${options[@]}"; do
+            ((errorCnt++));
+            if (( errorCnt > 12)); then
+                abortedList+=("$mediaTitle");
+                break;
+            else
+                sleep 5;
+            fi
+         done;
+        if ffmpeg -v quiet -y -i "$tempFile" -metadata title="$episodeTitle" -metadata copyright="$showYear" -codec copy "$destFile"; then
+            rm "$tempFile";
+            # rm -f /home/data/Movies/New/*.temp
+            # LongDescription Recorded date Genre Movie name
+            completedList+=("$mediaTitle");
+        fi
+}
+
+
+for (( i=0; i < ${length}; i++ )) do
+    url="${urlList[$i]}";
+    mediaTitle="${titles[$i]}";
+    destFile="$destFolder$mediaTitle.mp4"
+    episodeTitle="${epTitle[$i]}";
+    errorCnt=0;
+    getMovie;
+    if (( ${cnt} == i )); then  ## skip sleep last iteration
+        sleep 1
+        clear
+    else
+        sleep 5
+    fi
+done
+ftime=`date +"%m-%d-%Y %l:%M %P"`
+echo " "
+echo -e "${yellow}************************************************************************************${clear}"
+echo -e "Duration: $((($(date +%s)-$start)/60)) minutes"
+if (( ${#completedList[@]} > 0)); then
+    echo -e "Completed Downloads: $ftime${white}"
+    printf '>> %s\n' "${completedList[@]}"
+    # echo -e "${clear}"
+fi
+if (( ${#abortedList[@]} > 0)); then
+    echo -e "${red}Aborted Downloads:${white}"
+    printf '>> %s\n' "${abortedList[@]}"
+    echo -e "${clear}Check Temp Folder..."
+fi
+echo -e "${yellow}************************************************************************************${clear}"
+exit 0

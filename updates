@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/bin/apt update -y
+/usr/bin/apt upgrade -y
+exit 0
